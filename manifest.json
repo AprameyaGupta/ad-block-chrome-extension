@@ -1,0 +1,14 @@
+{
+    "name": "AdBlockr",
+    "version": "1.0",
+    "description": "A chrome extension to block annoying advertisements..",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["script.js"]
+    },
+    "icons": {
+        "128": "icons/blocked.png"
+    },
+    "manifest_version": 2
+
+}
